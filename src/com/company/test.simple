@@ -1,0 +1,23 @@
+package com.test;
+
+public class TestClass extends SuperClass {
+
+  public String newVar = "my var";
+
+  private void method()
+  {
+
+  }
+
+  public TestClass()
+  {
+    int varUpd = 7654321;
+    System.out.println("hello world");
+  }
+
+  public int counter = 5;
+
+  public int sum(int a, int b) {
+    return a + b;
+  }
+}
