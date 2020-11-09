@@ -10,6 +10,8 @@ public class TestClass extends SuperClass {
 
   }
 
+  public boolean isChecked = false;
+
   public TestClass()
   {
     int varUpd = 7654321;
