@@ -1,0 +1,26 @@
+package test;
+
+class TestClass2 {
+    String name;
+    String data;
+
+    public TestClass2() {
+        this.data = "data";
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName(String name) {
+        return name;
+    }
+
+    private counter = 0;
+
+    public void printData() {
+        System.out.println(data);
+    }
+
+
+}

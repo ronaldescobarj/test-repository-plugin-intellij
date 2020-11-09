@@ -4,24 +4,24 @@ public class TestClass extends SuperClass {
 
   public String newVar = "my var";
   public int myVar = 1;
-  private long longVar = 12345678;
 
   private void method()
   {
 
   }
 
-  public boolean isChecked = true;
+  public boolean isChecked = false;
 
   public TestClass()
   {
-    int varUpd = 100;
+    int varUpd = 123;
     System.out.println("hello world");
   }
+
+  public int counter = 5;
 
   public int sum(int a, int b) {
       return a + b;
   }
 
-  public int counter = 5;
 }
