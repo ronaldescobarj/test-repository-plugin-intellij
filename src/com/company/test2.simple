@@ -3,9 +3,10 @@ package test;
 class TestClass2 {
     String name;
     String data;
+    int testNumber;
 
     public TestClass2() {
-        this.data = "data";
+        this.data = "test";
     }
 
     public void setName(String name) {
@@ -16,11 +17,10 @@ class TestClass2 {
         return name;
     }
 
-    private counter = 0;
-
     public void printData() {
         System.out.println(data);
     }
 
+    private counter = 0;
 
 }
