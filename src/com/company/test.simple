@@ -3,7 +3,7 @@ package com.test;
 public class TestClass extends SuperClass {
 
   public String newVar = "my var";
-  public int myVar = 5;
+  public int myVar = 6;
   public long longVar = 12345678;
 
   private void method()
