@@ -3,9 +3,10 @@ package com.test;
 public class TestClass extends SuperClass {
 
   public String newVar = "my var";
-  public int myVar = 8;
-  public long longVar = 12345678;
+  public int myVar = 9;
+  public long longVar = 123456789;
   private String newString = "new string";
+  private boolean newBoolean = true;
 
   private void method()
   {
