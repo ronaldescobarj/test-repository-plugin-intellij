@@ -8,7 +8,6 @@ public class TestClass extends ParentClass {
   public int myVar = 8;
   public long longVar = 1234567890;
   private String newString = "new string";
-  private boolean newBoolean = true;
   public List<Integer> myList;
 
   private void myMethod()
