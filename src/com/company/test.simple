@@ -9,6 +9,10 @@ public class TestClass extends ParentClass {
   public long longVar = 1234567890;
   private String newString = "new string";
   public List<Integer> myList;
+  private int a;
+  private int b;
+  private int c;
+  private String str;
 
   private void myMethod()
   {
