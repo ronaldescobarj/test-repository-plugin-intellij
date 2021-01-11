@@ -2,7 +2,7 @@ package com.test;
 
 public class TestClass extends ParentClass {
 
-  public String newVar = "my var6";
+  public String newVar = "my var7";
   public String newString2 = "something";
   private int x = 2;
   public int myVar = 8;
