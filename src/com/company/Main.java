@@ -8,7 +8,11 @@ public class Main {
         int myInteger = 3;
         int a = 2;
         int b = 3;
-        int result = a + b;
+        int result = sum(a, b);
 	// write your code here
+    }
+
+    public static int sum(int a, int b) {
+        return a + b;
     }
 }
