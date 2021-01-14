@@ -9,6 +9,9 @@ public class Main {
         int a = 9;
         int b = 2;
         int result = sum(a, b);
+        int x = 2;
+        int y = 4;
+        int product = x * y;
 	// write your code here
     }
 
