@@ -14,7 +14,7 @@ public class Main {
         int product = multiply(x, y);
         int n1 = 5;
         int n2 = 4;
-        int substraction = n1 - n2;
+        int substraction = MyMath.substract(n1, n2);
 	// write your code here
     }
 
