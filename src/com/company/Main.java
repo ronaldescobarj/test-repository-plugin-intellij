@@ -12,6 +12,9 @@ public class Main {
         int x = 2;
         int y = 4;
         int product = multiply(x, y);
+        int n1 = 5;
+        int n2 = 4;
+        int substraction = n1 - n2;
 	// write your code here
     }
 
