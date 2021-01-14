@@ -11,11 +11,15 @@ public class Main {
         int result = sum(a, b);
         int x = 2;
         int y = 4;
-        int product = x * y;
+        int product = multiply(x, y);
 	// write your code here
     }
 
     public static int sum(int a, int b) {
         return a + b;
+    }
+
+    public static int multiply(int a, int b) {
+        return a * b;
     }
 }
