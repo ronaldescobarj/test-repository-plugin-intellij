@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int myInteger = 3;
         int a = 4;
-        int b = 4;
+        int b = 5;
         int result = sum(a, b);
 	// write your code here
     }
