@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int myInteger = 3;
-        int a = 5;
+        int a = 9;
         int b = 2;
         int result = sum(a, b);
 	// write your code here
