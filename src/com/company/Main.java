@@ -16,6 +16,9 @@ public class Main {
         int n1 = 5;
         int n2 = 4;
         int substraction = myMath.substract(n1, n2);
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int divisionResult = firstNumber / secondNumber;
 	// write your code here
     }
 
