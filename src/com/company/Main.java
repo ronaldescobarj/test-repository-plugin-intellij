@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
         int myInteger = 3;
-        int a = 9;
+        int a = 5;
         int b = 2;
         int result = myMath.sum(a, b);
         int x = 2;
@@ -19,6 +19,7 @@ public class Main {
         int firstNumber = 10;
         int secondNumber = 5;
         int divisionResult = myMath.divide(firstNumber, secondNumber);
+        String myStr = "abc";
 	// write your code here
     }
 
