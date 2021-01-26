@@ -8,7 +8,7 @@ public class Main {
         MyMath myMath = new MyMath();
         int myInteger = 3;
         int a = 1;
-        int b = 2;
+        int b = 8;
         int result = myMath.sum(a, b);
         int x = 2;
         int y = 4;
