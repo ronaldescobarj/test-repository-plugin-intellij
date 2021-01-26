@@ -13,7 +13,7 @@ public class Main {
         int x = 1;
         int y = 1;
         int product = multiply(x, y);
-        int n1 = 5;
+        int n1 = 8;
         int n2 = 4;
         int substraction = myMath.substract(n1, n2);
         int firstNumber = 10;
