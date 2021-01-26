@@ -11,7 +11,7 @@ public class Main {
         int b = 8;
         int result = myMath.sum(a, b);
         int x = 1;
-        int y = 4;
+        int y = 1;
         int product = multiply(x, y);
         int n1 = 5;
         int n2 = 4;
