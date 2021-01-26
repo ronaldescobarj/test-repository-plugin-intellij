@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
         int myInteger = 3;
-        int a = 5;
+        int a = 1;
         int b = 2;
         int result = myMath.sum(a, b);
         int x = 2;
