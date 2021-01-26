@@ -16,7 +16,7 @@ public class Main {
         int n1 = 8;
         int n2 = 4;
         int substraction = myMath.substract(n1, n2);
-        int firstNumber = 10;
+        int firstNumber = 15;
         int secondNumber = 5;
         int divisionResult = myMath.divide(firstNumber, secondNumber);
         String myStr = "abc";
