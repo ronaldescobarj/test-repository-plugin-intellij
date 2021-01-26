@@ -10,7 +10,7 @@ public class Main {
         int a = 1;
         int b = 8;
         int result = myMath.sum(a, b);
-        int x = 2;
+        int x = 1;
         int y = 4;
         int product = multiply(x, y);
         int n1 = 5;
