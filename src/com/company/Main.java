@@ -19,6 +19,9 @@ public class Main {
         int firstNumber = 15;
         int secondNumber = 5;
         int divisionResult = myMath.divide(firstNumber, secondNumber);
+        int first = 14;
+        int second = 5;
+        int mod = first % second;
         String myStr = "abc";
 	// write your code here
     }
