@@ -21,12 +21,16 @@ public class Main {
         int divisionResult = myMath.divide(firstNumber, secondNumber);
         int first = 14;
         int second = 5;
-        int mod = first % second;
+        int mod = getMod(first, second);
         String myStr = "abc";
 	// write your code here
     }
 
     public static int multiply(int a, int b) {
         return a * b;
+    }
+
+    public static int getMod(int first, int second) {
+      return first % second;
     }
 }
