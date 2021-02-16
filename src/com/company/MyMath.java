@@ -6,6 +6,10 @@ public class MyMath {
   }
 
   public int sum(int a, int b) {
+    return mySum(a, b);
+  }
+
+  private int mySum(int a, int b) {
     return a + b;
   }
 
