@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
-        int myInteger = 8;
+        int myInteger = 9;
         int a = 1;
         int b = 4;
         int result = myMath.sum(a, b);
-        int x = 1;
+        int x = 4;
         int y = 1;
         int product = multiply(x, y);
         int n1 = 8;
