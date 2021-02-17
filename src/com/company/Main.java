@@ -24,7 +24,7 @@ public class Main {
         int mod = getMod(first, second);
         String s1 = "abcd";
         String s2 = "efgh";
-        String stringRes = s1 + s2;
+        String stringRes = concatStrings(s1, s2);
         String myStr = "abc";
 	// write your code here
     }
@@ -35,5 +35,9 @@ public class Main {
 
     public static int getMod(int first, int second) {
       return first % second;
+    }
+
+    public static String concatStrings(String s1, String s2) {
+      return s1 + s2;
     }
 }
