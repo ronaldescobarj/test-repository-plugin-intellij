@@ -22,6 +22,9 @@ public class Main {
         int first = 14;
         int second = 5;
         int mod = getMod(first, second);
+        String s1 = "abcd";
+        String s2 = "efgh";
+        String stringRes = s1 + s2;
         String myStr = "abc";
 	// write your code here
     }
