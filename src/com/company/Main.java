@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
+    @SupressWarnings("unchecked")
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
         int myInteger = 9;
