@@ -34,11 +34,11 @@ public class Main {
         return a * b;
     }
 
-    public static int getMod(int first, int second) {
-      return first % second;
-    }
-
     public static String concatStrings(String s1, String s2) {
       return s1 + s2;
+    }
+
+    public static int getMod(int first, int second) {
+      return first % second;
     }
 }
