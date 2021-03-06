@@ -7,7 +7,7 @@ public class Main {
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
-        int myInteger = 9;
+        int myNumberInteger = 9;
         int a = 1;
         int b = 4;
         int result = myMath.sum(a, b);
@@ -25,12 +25,12 @@ public class Main {
         int mod = getMod(first, second);
         String s1 = "abcd";
         String s2 = "efgh";
-        String stringRes = concatStrings(s1, s2);
+        String stringRes = joinStrings(s1, s2);
         String myStr = "abc";
 	// write your code here
     }
 
-    public static String concatStrings(String s1, String s2) {
+    public static String joinStrings(String stringFirst, String s2) {
       return s1 + s2;
     }
 
