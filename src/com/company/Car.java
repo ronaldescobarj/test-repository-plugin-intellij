@@ -1,6 +1,8 @@
 package com.company;
 
-public class Car {
+public class Car implements Vehicle {
+
+  @Override
   public String getSpeed() {
     return "Car speed";
   }

@@ -1,5 +1,6 @@
 package com.company;
-public class Bicycle {
+
+public class Bicycle implements Vehicle {
 
   public String getSpeed() {
     String bicycleSpeed = "Bicycle speed";
