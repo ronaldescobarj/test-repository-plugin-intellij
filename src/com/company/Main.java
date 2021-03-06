@@ -25,7 +25,7 @@ public class Main {
         int divisionResult = myMath.divide(firstNumber, secondNumber);
         int first = 14;
         int second = 5;
-        int mod = getMod(first, second);
+        int mod = obtainMod(first, second);
         String s1 = "abcd";
         String s2 = "efgh";
         String stringRes = joinStrings(s1, s2);
@@ -37,12 +37,12 @@ public class Main {
       return s1 + s2;
     }
 
-    public static int getMod(int first, int second) {
+    public static int obtainMod(int first, int second) {
       return first % second;
     }
 
-    public static float testMethod(int myNum) {
-      float x = 2;
+    public static float testMethod(int numberXdd) {
+      float abc = 2;
       return 5;
     }
 }
