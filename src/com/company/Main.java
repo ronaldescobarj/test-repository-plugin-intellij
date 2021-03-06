@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Main {
 
+    static int staticVar = 2;
+
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
         MyMath myMath = new MyMath();
