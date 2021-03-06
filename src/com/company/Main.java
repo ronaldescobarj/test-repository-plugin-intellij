@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     static float varXd = 2;
-    static int staticFloat = 4;
+    static int renamedAttribute = 4;
 
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
@@ -41,16 +41,16 @@ public class Main {
       return first % second;
     }
 
-    public static int doSomething(float numberXdd) {
+    public static int doSomething() {
       int abc = 2;
       return 5;
     }
 
-    public static void doSomethingXd(String a, int b) {
+    public static void doSomethingXd(String a, int b, float c) {
       System.out.println("hello");
     }
 
-    public static void doSomethingXdxd(boolean x, String y, int z) {
+    public static void doSomethingXdxd(String y, boolean x, int z) {
       System.out.println("hi");
     }
 }
