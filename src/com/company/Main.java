@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    static int varXd = 2;
+    static float varXd = 2;
     static int staticFloat = 4;
 
     @SupressWarnings("unchecked")
@@ -41,8 +41,8 @@ public class Main {
       return first % second;
     }
 
-    public static float testMethod(int numberXdd) {
-      float abc = 2;
+    public static int testMethod(float numberXdd) {
+      int abc = 2;
       return 5;
     }
 }
