@@ -41,8 +41,16 @@ public class Main {
       return first % second;
     }
 
-    public static int testMethod(float numberXdd) {
+    public static int doSomething(float numberXdd) {
       int abc = 2;
       return 5;
+    }
+
+    public static void doSomethingXd(String a, int b) {
+      System.out.println("hello");
+    }
+
+    public static void doSomethingXdxd(boolean x, String y, int z) {
+      System.out.println("hi");
     }
 }
