@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     static int staticVar = 2;
+    static float staticFloat = 4;
 
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
@@ -38,5 +39,10 @@ public class Main {
 
     public static int getMod(int first, int second) {
       return first % second;
+    }
+
+    public static int testMethod(float myNum) {
+      int x = 2;
+      return 5;
     }
 }
