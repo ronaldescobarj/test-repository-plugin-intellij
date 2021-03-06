@@ -1,5 +1,5 @@
 package com.company;
 
-public class StringsUtils {
+public class MyStrings {
   String myBase = "";
 }
