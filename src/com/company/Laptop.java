@@ -1,18 +1,14 @@
 package com.company;
 
-public class Laptop {
-  private String brand;
-  private String keyboardType;
+public class Laptop extends Device {
+    private String keyboardType;
 
-  public void format() {
-    System.out.println("formatting");
-  }
+    @Override
+    public void shutDown() {
+        System.out.println("laptop shut down");
+    }
 
-  public void shutDown() {
-    System.out.println("laptop shut down");
-  }
-
-  public void openVisualStudioCode() {
-    System.out.println("opening visual studio code");
-  }
+    public void openVisualStudioCode() {
+        System.out.println("opening visual studio code");
+    }
 }
