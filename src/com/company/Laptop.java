@@ -2,7 +2,6 @@ package com.company;
 
 public class Laptop extends Device {
     private String keyboardType;
-    private int battery;
 
     @Override
     public void shutDown() {
