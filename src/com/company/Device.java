@@ -9,4 +9,8 @@ public abstract class Device {
     }
 
     public abstract void shutDown();
+
+    public int getBattery() {
+        return battery;
+    }
 }
