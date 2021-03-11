@@ -11,4 +11,8 @@ public class Laptop extends Device {
     public void openVisualStudioCode() {
         System.out.println("opening visual studio code");
     }
+
+    public int getBattery() {
+        return battery;
+    }
 }

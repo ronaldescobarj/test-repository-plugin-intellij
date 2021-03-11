@@ -10,4 +10,8 @@ public class Phone extends Device {
     public void callPhone(long phoneNumber) {
         System.out.println("calling phone " + phoneNumber);
     }
+
+    public int getBattery() {
+        return battery;
+    }
 }
