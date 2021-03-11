@@ -1,7 +1,7 @@
 package com.company;
 
 public class Phone extends Device {
-    private String simCard;
+    private String simCardData;
     private boolean isAndroid;
 
     public void shutDown() {
