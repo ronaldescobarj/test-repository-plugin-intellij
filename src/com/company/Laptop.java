@@ -11,4 +11,8 @@ public class Laptop extends Device {
     public void openVisualStudioCode() {
         System.out.println("opening visual studio code");
     }
+
+    public void linkWithPhone() {
+        System.out.println("linking with phone");
+    }
 }

@@ -6,4 +6,8 @@ public class SmartWatch extends Device {
     public void shutDown() {
         System.out.println("smart watch shut down");
     }
+
+    public void linkWithPhone() {
+        System.out.println("linking with phone");
+    }
 }
