@@ -13,4 +13,8 @@ public abstract class Device {
     public int getBattery() {
         return battery;
     }
+
+    protected void linkWithPhone() {
+        System.out.println("linking with phone");
+    }
 }
