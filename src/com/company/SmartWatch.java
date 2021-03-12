@@ -2,7 +2,7 @@ package com.company;
 
 public class SmartWatch extends Device {
     private boolean isAndroid;
-    private int ramInGb;
+    private int ramInGB;
 
     public void shutDown() {
         System.out.println("smart watch shut down");
