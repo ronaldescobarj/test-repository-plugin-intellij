@@ -34,7 +34,6 @@ public class Main {
         int numberTwo = 2;
         int numberThree = 3;
         int numberResult = numberOne + numberTwo + numberThree;
-	// write your code here
     }
 
     public static String joinTwoStrings(String stringFirst, String s2) {
