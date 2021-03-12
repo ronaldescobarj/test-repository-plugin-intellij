@@ -33,7 +33,7 @@ public class Main {
 	// write your code here
     }
 
-    public static String joinStrings(String stringFirst, String s2) {
+    public static String joinTwoStrings(String stringFirst, String s2) {
       return s1 + s2;
     }
 
