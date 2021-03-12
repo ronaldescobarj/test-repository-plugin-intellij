@@ -30,6 +30,10 @@ public class Main {
         String stringRes = joinStrings(s1, s2);
         String myStr = "ABCDEFG";
         String myNewString = "hello";
+        int numberOne = 1;
+        int numberTwo = 2;
+        int numberThree = 3;
+        int numberResult = numberOne + numberTwo + numberThree;
 	// write your code here
     }
 
