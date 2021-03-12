@@ -3,7 +3,6 @@ package com.company;
 public class Phone extends Device {
     private String simCardData;
     private boolean isAndroid;
-    private int ramInGB;
 
     public void shutDown() {
         System.out.println("phone shut down");

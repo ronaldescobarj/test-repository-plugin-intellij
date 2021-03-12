@@ -33,8 +33,12 @@ public class Main {
         int numberOne = 1;
         int numberTwo = 2;
         int numberThree = 3;
-        int numberResult = numberOne + numberTwo + numberThree;
+        int numberResult = sumThreeNumbers(numberOne, numberTwo, numberThree);
         String text = "MyText";
+    }
+
+    public static int sumThreeNumbers(int numberOne, int numberTwo, int numberThree) {
+      return numberOne + numberTwo + numberThree;
     }
 
     public static int obtainMod(int first, int second) {
@@ -45,7 +49,7 @@ public class Main {
       return s1 + s2;
     }
 
-    public static void doSomethingXd(String a, int b, float c) {
+    public static void doSomethingXd(String a, float c, int b) {
       System.out.println("hello");
     }
 
