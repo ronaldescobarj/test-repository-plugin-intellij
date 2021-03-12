@@ -25,8 +25,8 @@ public class Main {
         int first = 14;
         int second = 5;
         int mod = obtainMod(first, second);
-        String s1 = "abcd";
-        String s2 = "efgh";
+        String s1 = "abcde";
+        String s2 = "fghij";
         String stringRes = joinStrings(s1, s2);
         String myStr = "ABCDEFG";
         String myNewString = "hello";
@@ -34,14 +34,15 @@ public class Main {
         int numberTwo = 2;
         int numberThree = 3;
         int numberResult = numberOne + numberTwo + numberThree;
-    }
-
-    public static String joinTwoStrings(String stringFirst, String s2) {
-      return s1 + s2;
+        String text = "MyText";
     }
 
     public static int obtainMod(int first, int second) {
       return first % second;
+    }
+
+    public static String joinTwoStrings(String stringFirst, String s2) {
+      return s1 + s2;
     }
 
     public static void doSomethingXd(String a, int b, float c) {
@@ -49,7 +50,6 @@ public class Main {
     }
 
     public static int doSomething() {
-      int abc = 2;
       return 5;
     }
 
