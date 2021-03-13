@@ -32,6 +32,10 @@ public class Main {
         int numberThree = 3;
         int numberResult = sumThreeNumbers(numberOne, numberTwo, numberThree);
         String text = "MyText";
+        String text2 = "hola";
+        String text3 = "chau";
+        String resStr1 = text + text2;
+        String resStr = resStr1 + text3;
     }
 
     public static int sumThreeNumbers(int numberOne, int numberTwo, int numberThree) {
