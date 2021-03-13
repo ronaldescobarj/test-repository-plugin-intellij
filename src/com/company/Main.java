@@ -5,7 +5,7 @@ public class Main {
     static float updated = 4;
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
-        float renamedVarJaja = 5;
+        float holaxd = 5;
         MyMath myMath = new MyMath();
         int a = 1;
         int b = 4;
