@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    static int renamedAttribute = 4;
+    static float renamedAttribute = 4;
 
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
@@ -57,7 +57,7 @@ public class Main {
       return 5;
     }
 
-    public static void doSomethingXdxd(String y, boolean x, int z) {
+    public static void doSomethingXdxd(float y, boolean x, int z) {
       System.out.println("hi");
     }
 }
