@@ -1,6 +1,8 @@
 package com.company;
 
 public class MyMath {
+  private boolean inserted1 = true;
+  private boolean xdxd = false;
   public int substract(int n1, int n2) {
     return mySubstract(n1, n2);
   }

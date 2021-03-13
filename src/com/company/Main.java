@@ -2,11 +2,11 @@ package com.company;
 
 import java.util.ArrayList;
 public class Main {
-    static float renamedAttribute = 4;
+    static float updated = 4;
     @SupressWarnings("unchecked")
     public static void main(String[] args) {
+        float inserted = 5;
         MyMath myMath = new MyMath();
-        int myNumberInteger = 9;
         int a = 1;
         int b = 4;
         int result = myMath.sum(a, b);
