@@ -9,7 +9,7 @@ public class Main {
         MyMath myMath = new MyMath();
         int a = 1;
         int b = 4;
-        int resultSuma = myMath.sum(a, b);
+        int result = myMath.sum(a, b);
         int x = 4;
         int y = 1;
         int product = multiply(x, y);
