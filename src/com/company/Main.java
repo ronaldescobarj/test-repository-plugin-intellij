@@ -50,10 +50,11 @@ public class Main {
     }
 
     public static void doSomethingXd(String a, float c, int b) {
+      int x = 3;
       System.out.println("hello");
     }
 
-    public static int doSomething() {
+    public static float doSomething() {
       return 5;
     }
 
