@@ -34,8 +34,12 @@ public class Main {
         String text = "MyText";
         String text2 = "hola";
         String text3 = "chau";
-        String resStr1 = text + text2;
-        String resStr = resStr1 + text3;
+        String resStr = joinThreeStrings(text, text2, text3);
+    }
+
+    public static String joinThreeStrings(String text, String text2, String text3) {
+      String resStr1 = text + text2;
+      return resStr1 + text3;
     }
 
     public static int sumThreeNumbers(int numberOne, int numberTwo, int numberThree) {
