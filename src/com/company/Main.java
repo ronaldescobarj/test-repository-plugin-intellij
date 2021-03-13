@@ -50,7 +50,7 @@ public class Main {
     }
 
     public static void doSomethingXd(String a, float c, int b) {
-      int x = 3;
+      float x = 3;
       System.out.println("hello");
     }
 
