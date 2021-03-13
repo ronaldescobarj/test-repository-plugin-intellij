@@ -41,8 +41,8 @@ public class Main {
       return numberOne + numberTwo + numberThree;
     }
 
-    public static int obtainMod(int first, int second) {
-      return first % second;
+    public static int obtainMod(int firstNumber, int second) {
+      return firstNumber % second;
     }
 
     public static String joinTwoStrings(String stringFirst, String s2) {
