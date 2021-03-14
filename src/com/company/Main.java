@@ -41,6 +41,4 @@ public class Main {
 
     public static void testMethod3() {}
 
-    public static void testMethod4() {}
-
 }
