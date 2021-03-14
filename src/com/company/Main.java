@@ -22,14 +22,13 @@ public class Main {
     }
 
     public static void testMethod() {
-      int a = 1;
+      int a = 123;
       int b = 2;
-      System.out.println("abc");
       int c = 3;
       int d = 4;
+      int e = 5;
+      System.out.println("abc");
     }
-
-    public static void testMethod2() {}
 
     public static void testMethod3() {}
 }
