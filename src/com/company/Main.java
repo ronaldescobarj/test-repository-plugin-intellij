@@ -16,10 +16,9 @@ public class Main {
       return userId == 1 ? "Menu1" : "Menu2";
     }
 
-    public static void showGoodbyeMessage(String name) {
+    public static void showGoodbyeMessage() {
       System.out.println("Goodbye!");
       System.out.println("Have a great day");
-      System.out.println(name);
       System.out.println("I hope to see you soon");
     }
 
