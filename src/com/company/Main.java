@@ -19,7 +19,7 @@ public class Main {
       System.out.println("Goodbye " + name);
     }
 
-    public static String showUserData(String country, String name, String age) {
+    public static String showUserData(String name, int age, String country) {
       return "Name: " + name + "Country: " + country + "Age" + age;
     }
 
