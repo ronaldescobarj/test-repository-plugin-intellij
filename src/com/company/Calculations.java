@@ -10,4 +10,8 @@ public class Calculations {
   public int doSecondCalculation() {
     return calculationConstant * 2;
   }
+
+  public int doThirdCalculation(int factor) {
+    return factor * 4;
+  }
 }
