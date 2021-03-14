@@ -11,7 +11,7 @@ public class Calculations {
     return calculationConstant * 2;
   }
 
-  public int doThirdCalculation(int factor) {
+  public int doThirdCalculation(int factor, int b) {
     return factor * 4;
   }
 }
