@@ -11,12 +11,11 @@ public class Calculations {
     return calculationConstant * 2;
   }
 
-  public int doThirdCalculation(int factor, int max) {
+  public int doThirdCalculation(int factor) {
     int firstResult = factor * 4;
     int secondResult = firstResult + 25;
     int thirdResult = secondResult - 2;
     int fourthResult = thirdResult + 5;
-    int fifthResult = fourthResult - max;
-    return fifthResult - 1;
+    return fourthResult - 1;
   }
 }
