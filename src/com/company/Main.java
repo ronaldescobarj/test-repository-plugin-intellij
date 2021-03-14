@@ -11,8 +11,8 @@ public class Main {
       String welcomeMessage = "Hello " + name " from " + country + " who is " + age + "years old!";
     }
 
-    public static String getMenu() {
-      return "Menu";
+    public static String getMenu(int userId) {
+      return userId == 1 ? "Menu1" : "Menu2";
     }
 
     public static void showGoodbyeMessage(String name) {
@@ -23,9 +23,9 @@ public class Main {
       return "Name: " + name + "Country: " + country + "Age" + age;
     }
 
-    public static String msg(int a) {
-      boolean ad = a > 18;
-      return ad ? "You are an adult" : "You are not an adult";
+    public static String getMessageByAge(int age) {
+      boolean isAdult = age > 18;
+      return isAdult ? "You are an adult" : "You are not an adult";
     }
 
     public static void testMethod() {
