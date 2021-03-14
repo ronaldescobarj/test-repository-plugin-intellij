@@ -1,13 +1,13 @@
 package com.company;
 
-public class Car implements Vehicle {
+public class Car extends Vehicle {
 
   @Override
   public String getSpeed() {
-    return "Car speed";
+    return "50mph";
   }
 
-  public void checkGps() {
-    System.out.println("gps works");
+  public void turnOnEngine() {
+    System.out.println("turning on engine " + engineType);
   }
 }

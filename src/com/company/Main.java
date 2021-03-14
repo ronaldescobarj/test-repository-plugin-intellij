@@ -1,69 +1,42 @@
 package com.company;
 
 import java.util.ArrayList;
+
 public class Main {
-    static float updated = 4;
-    @SupressWarnings("unchecked")
     public static void main(String[] args) {
-        float holajaja = 5;
-        MyMath myMath = new MyMath();
-        int a = 1;
-        int b = 4;
-        int result = myMath.sum(a, b);
-        int x = 4;
-        int y = 1;
-        int product = multiply(x, y);
-        int n1 = 8;
-        int n2 = 4;
-        int substraction = myMath.substract(n1, n2);
-        int firstNumber = 15;
-        int secondNumber = 5;
-        int divisionResult = myMath.divide(firstNumber, secondNumber);
-        int first = 14;
-        int second = 5;
-        int mod = obtainMod(first, second);
-        String s1 = "abcde";
-        String s2 = "fghij";
-        String stringRes = joinStrings(s1, s2);
-        String myStr = "ABCDEFG";
-        String myNewString = "hello";
-        int numberOne = 1;
-        int numberTwo = 2;
-        int numberThree = 3;
-        int numberResult = sumThreeNumbers(numberOne, numberTwo, numberThree);
-        String text = "MyText";
-        String text2 = "hola";
-        String text3 = "chau";
-        String resStr = joinThreeStrings(text, text2, text3);
+      String name = args[0];
+      String country = args[1];
+      String age = age[2];
+      String welcomeMessage = "Hello " + name " from " + country + " who is " + age + "years old!";
+
+
     }
 
-    public static String joinThreeStrings(String text, String text2, String text3) {
-      String resStr1 = text + text2;
-      return resStr1 + text3;
+    public static String showMenu() {
+      return "Menu";
     }
 
-    public static int sumThreeNumbers(int numberOne, int numberTwo, int numberThree) {
-      return numberOne + numberTwo + numberThree;
+    public static String showGoodbyeMessage(String name) {
+      return "Goodbye " + name;
     }
 
-    public static int obtainMod(int firstNumber, int second) {
-      return firstNumber % second;
+    public static String showUserData(String country, String name, String age) {
+      return "Name: " + name + "Country: " + country + "Age" + age;
     }
 
-    public static String joinTwoStrings(String stringFirst, String s2) {
-      return s1 + s2;
+    public static String msg(int a) {
+      boolean ad = a > 18;
+      return ad ? "You are an adult" : "You are not an adult";
     }
 
-    public static void doSomethingXd(String a, float c, int b) {
-      float x = 3;
-      System.out.println("hello");
+    public static void testMethod() {
+      int a = 2;
+      int b = 3;
+      int c = 4;
+      System.out.println("abc");
+      int d = 5;
     }
 
-    public static float doSomething() {
-      return 5;
-    }
+    public static void testMethod2() {}
 
-    public static void doSomethingXdxd(float y, boolean x, int z) {
-      System.out.println("hi");
-    }
 }

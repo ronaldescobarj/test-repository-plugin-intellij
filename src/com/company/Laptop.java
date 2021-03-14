@@ -1,18 +1,14 @@
 package com.company;
 
-public class Laptop extends Device {
-    private String keyboardType;
+public class Laptop {
+    private boolean isMacBook;
+    private int battery;
 
-    @Override
-    public void shutDown() {
-        System.out.println("laptop shut down");
+    public int getBattery() {
+        return battery;
     }
 
-    public void openVisualStudioCode() {
-        System.out.println("opening visual studio code");
-    }
-
-    public void linkWithPhone() {
-        System.out.println("linking with phone");
+    public void connectMouse() {
+        System.out.println("connecting with mouse");
     }
 }

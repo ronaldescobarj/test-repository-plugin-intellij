@@ -1,5 +1,11 @@
 package com.company;
 
-public interface Vehicle {
-  String getSpeed();
+public class Vehicle {
+  String engineType;
+
+  public String getEngineType() {
+    return engineType;
+  }
+
+  public abstract void getSpeed();
 }

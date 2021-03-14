@@ -1,11 +1,11 @@
 package com.company;
 
-public class Phone extends Device {
-    private String simCardData;
-    private boolean isAndroid;
+public class Phone {
+    private int battery;
+    private String simCard;
 
-    public void shutDown() {
-        System.out.println("phone shut down");
+    public int getBattery() {
+        return battery;
     }
 
     public void callPhone(long phoneNumber) {

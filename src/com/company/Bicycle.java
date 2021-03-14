@@ -1,10 +1,9 @@
 package com.company;
 
-public class Bicycle implements Vehicle {
+public class Bicycle extends Vehicle {
 
   public String getSpeed() {
-    String bicycleSpeed = "Bicycle speed";
-    return bicycleSpeed;
+    return "10mph";
   }
 
   public void pedal() {
