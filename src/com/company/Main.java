@@ -16,17 +16,17 @@ public class Main {
       return userId == 1 ? "Menu1" : "Menu2";
     }
 
-    public static void showGoodbyeMessage(String name) {
-      System.out.println("Goodbye " + name);
+    public static void showGoodbyeMessage() {
+      System.out.println("Goodbye");
     }
 
-    public static String showUserData(String name, int age, String country) {
+    public static String showUserData(String name, String country, int age) {
       return "Name: " + name + "Country: " + country + "Age" + age;
     }
 
-    public static String getMessageByAge(int age) {
-      boolean isAdult = age > 18;
-      return isAdult ? "You are an adult" : "You are not an adult";
+    public static String msg(int a) {
+      boolean ad = a > 18;
+      return ad ? "You are an adult" : "You are not an adult";
     }
 
     public static void testMethod() {
