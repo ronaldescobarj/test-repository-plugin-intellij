@@ -1,8 +1,8 @@
 package com.company;
 
 public class AgeVerifier {
-  public static String msg(int a) {
-    boolean ad = a > 18;
-    return ad ? "You are an adult" : "You are not an adult";
+  public static String getMessageByAge(int age) {
+    boolean isAdult = age > 18;
+    return isAdult ? "You are an adult" : "You are not an adult";
   }
 }
