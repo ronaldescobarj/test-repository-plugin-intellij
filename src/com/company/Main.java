@@ -16,19 +16,15 @@ public class Main {
       System.out.println("Name: " + name + "Country: " + country + "Age" + age);
     }
 
-    public static String msg(int a) {
-      boolean ad = a > 18;
-      return ad ? "You are an adult" : "You are not an adult";
-    }
-
     public static void testMethod() {
-      int a = 123;
+      int a = 1;
       int b = 2;
+      System.out.println("abc");
       int c = 3;
       int d = 4;
-      int e = 5;
-      System.out.println("abc");
     }
+
+    public static void testMethod2() {}
 
     public static void testMethod3() {}
 }
