@@ -3,16 +3,11 @@ package com.company;
 public class Calculations {
   float calculationConstant = 173;
 
-  public float calculateValue(float maxValue);
-    float limit = maxValue * 52 - (102 * 23);
-    return limit - 254;
+  public int doFirstCalculation(int value) {
+    return value * 100;
   }
 
-  public int calc(float x) {
-    return 2;
-  }
-
-  public float calc2() {
-    return 5;
+  public int doSecondCalculation() {
+    return calculationConstant * 2;
   }
 }
