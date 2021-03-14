@@ -8,11 +8,11 @@ public class Calculations {
     return limit - 254;
   }
 
-  public int calc(int x) {
+  public int calc(float x) {
     return 2;
   }
 
-  public int calc2() {
+  public float calc2() {
     return 5;
   }
 }
