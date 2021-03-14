@@ -8,9 +8,13 @@ public class Main {
       String name = args[0];
       String country = args[1];
       String age = age[2];
+      String welcomeMessage = getWelcomeMessage(name, country);
+    }
+
+    public static String getWelcomeMessage(String name, String country) {
       String helloMessage = "Hello " + name;
       String countryMessage = "from " + country;
-      String welcomeMessage = helloMessage + countryMessage;
+      return helloMessage + countryMessage;
     }
 
     public static String getMenu(int userId) {
