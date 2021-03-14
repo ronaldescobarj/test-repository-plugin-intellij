@@ -11,8 +11,8 @@ public class Main {
       String welcomeMessage = "Hello " + name " from " + country + " who is " + age + "years old!";
     }
 
-    public static String getMenu(int userId) {
-      return userId == 1 ? "Menu1" : "Menu2";
+    public static String getMenu(int userId, String additionalText) {
+      return (userId == 1 ? "Menu1" : "Menu2") + additionalText;
     }
 
     public static void showGoodbyeMessage(String name) {
