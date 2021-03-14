@@ -4,8 +4,8 @@ public class Laptop {
     private boolean isMacBook;
     private int battery;
 
-    public int getBattery() {
-        return battery;
+    public void shutDown() {
+        System.out.println("shutting down");
     }
 
     public void connectMouse() {

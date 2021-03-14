@@ -4,8 +4,8 @@ public class Phone {
     private int battery;
     private String simCard;
 
-    public int getBattery() {
-        return battery;
+    public void shutDown() {
+        System.out.println("shutting down");
     }
 
     public void callPhone(long phoneNumber) {
