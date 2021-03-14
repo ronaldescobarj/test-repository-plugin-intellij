@@ -12,12 +12,8 @@ public class Main {
       String welcome = hello + from;
     }
 
-    public static String getMenu(int userId) {
-      return userId == 1 ? "Menu1" : "Menu2";
-    }
-
-    public static String showUserData(String name, int age, String country) {
-      return "Name: " + name + "Country: " + country + "Age" + age;
+    public static void showUserData(String name, int age, String country) {
+      System.out.println("Name: " + name + "Country: " + country + "Age" + age);
     }
 
     public static String msg(int a) {
