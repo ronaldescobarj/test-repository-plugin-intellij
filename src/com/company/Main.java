@@ -7,14 +7,9 @@ public class Main {
       int appVersion = 1;
       String name = args[0];
       String country = args[1];
-      String age = age[2];
-      String welcomeMessage = getWelcomeMessage(name, country);
-    }
-
-    public static String getWelcomeMessage(String name, String country) {
-      String helloMessage = "Hello " + name;
-      String countryMessage = "from " + country;
-      return helloMessage + countryMessage;
+      String hello = "Hello " + name;
+      String from = "from " + country;
+      String welcome = hello + from;
     }
 
     public static String getMenu(int userId) {
