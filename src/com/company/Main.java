@@ -4,20 +4,19 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+      int appVersion = 1;
       String name = args[0];
       String country = args[1];
       String age = age[2];
       String welcomeMessage = "Hello " + name " from " + country + " who is " + age + "years old!";
-
-
     }
 
-    public static String showMenu() {
+    public static String getMenu() {
       return "Menu";
     }
 
-    public static String showGoodbyeMessage(String name) {
-      return "Goodbye " + name;
+    public static void showGoodbyeMessage(String name) {
+      System.out.println("Goodbye " + name);
     }
 
     public static String showUserData(String country, String name, String age) {
