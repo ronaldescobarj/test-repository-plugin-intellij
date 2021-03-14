@@ -33,13 +33,14 @@ public class Main {
     }
 
     public static void testMethod() {
-      int a = 123;
-      int b = 3;
-      int c = 4;
-      int d = 5;
-      int e = 6;
+      int a = 1;
+      int b = 2;
       System.out.println("abc");
+      int c = 3;
+      int d = 4;
     }
+
+    public static void testMethod2() {}
 
     public static void testMethod3() {}
 }
