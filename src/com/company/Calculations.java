@@ -12,6 +12,10 @@ public class Calculations {
   }
 
   public int doThirdCalculation(int factor) {
-    return factor * 4;
+    int firstResult = factor * 4;
+    int secondResult = firstResult + 25;
+    int thirdResult = secondResult - 2;
+    int fourthResult = thirdResult + 5;
+    return fourthResult + 55;
   }
 }
