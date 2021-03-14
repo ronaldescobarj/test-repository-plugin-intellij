@@ -7,4 +7,12 @@ public class Calculations {
     float limit = maxValue * 52 - (102 * 23);
     return limit - 254;
   }
+
+  public int calc(int x) {
+    return 2;
+  }
+
+  public int calc2() {
+    return 5;
+  }
 }
