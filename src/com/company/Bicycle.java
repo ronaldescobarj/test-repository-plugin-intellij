@@ -10,3 +10,4 @@ public class Bicycle extends Vehicle {
     System.out.println("now pedaling");
   }
 }
+
