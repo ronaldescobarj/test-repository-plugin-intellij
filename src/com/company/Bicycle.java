@@ -8,6 +8,7 @@ public class Bicycle extends Vehicle {
 
   public void pedal() {
     System.out.println("now pedaling");
+    System.out.println("test");
   }
 }
 
