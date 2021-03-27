@@ -3,6 +3,7 @@ package com.company;
 public class Bicycle extends Vehicle {
 
   public String getSpeed() {
+    System.out.println("getting speed");
     return "10mph";
   }
 
