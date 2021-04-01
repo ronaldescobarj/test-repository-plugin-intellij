@@ -11,6 +11,7 @@ public class Bicycle extends Vehicle {
     System.out.println("now pedaling");
     System.out.println("test");
     System.out.println("test2");
+    System.out.println("test3");
   }
 }
 
