@@ -4,6 +4,7 @@ public class Bicycle extends Vehicle {
 
   public String getSpeed() {
     System.out.println("getting speed");
+    System.out.println("velocidad xd");
     return "10mph";
   }
 
