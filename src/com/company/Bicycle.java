@@ -15,5 +15,9 @@ public class Bicycle extends Vehicle {
     System.out.println("test3");
     System.out.println("test4");
   }
+
+  public void test(String str1) {
+    System.out.println(str1);
+  }
 }
 
