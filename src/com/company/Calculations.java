@@ -4,6 +4,7 @@ public class Calculations {
   int calculationConstant = 173;
 
   public int doFirstCalculation(float value) {
+    System.out.println("few");
     return value * 100;
   }
 

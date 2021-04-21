@@ -5,6 +5,20 @@ public class Car extends Vehicle {
   String engineType;
 
   public String getEngineType() {
+      System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("medium");
     return engineType;
   }
 

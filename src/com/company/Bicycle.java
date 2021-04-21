@@ -19,6 +19,36 @@ public class Bicycle extends Vehicle {
     System.out.println("test7");
     System.out.println("test8");
     System.out.println("test9");
+        System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("test9");
+    System.out.println("many");
   }
 
   public void test(String str1, String str2) {
