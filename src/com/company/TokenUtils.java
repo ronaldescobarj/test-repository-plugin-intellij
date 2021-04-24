@@ -1,6 +1,6 @@
 package com.company;
 
-public class TokenDecoder {
+public class TokenUtils {
   public String decodeToken(String token) {
     return "token decoded";
   }
