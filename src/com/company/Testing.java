@@ -1,5 +1,5 @@
 package com.company;
 
 public interface Animal {
-    private int x = 3;
+    private int x = 5;
 }
