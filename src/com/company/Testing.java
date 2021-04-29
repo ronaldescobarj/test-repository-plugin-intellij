@@ -17,7 +17,7 @@ public class TestClass extends SuperClass {
     System.out.println("hi");
   }
 
-  private String getPepito() {
+  private String obtainPepito() {
     String pepito = "PEPITO";
     int aaaaa = 2;
     System.out.println(aaaaa);
