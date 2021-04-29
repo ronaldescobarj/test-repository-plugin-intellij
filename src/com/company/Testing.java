@@ -17,11 +17,17 @@ public class TestClass extends SuperClass {
     System.out.println("hi");
   }
 
-  private String obtainPepito() {
+  private String getPepito() {
     String pepito = "PEPITO";
     int aaaaa = 2;
     System.out.println(aaaaa);
     return pepito.toLowerCase();
+  }
+
+  private int getNumber() {
+    int aaaaa = 2;
+    long bbbb = 123;
+    return 5;
   }
 
   private void newMethod()  { return; }
