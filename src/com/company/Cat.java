@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cat implements Animal {
+public class Cat {
 
   public void eat() {
     System.out.println("cat eating");
