@@ -4,15 +4,19 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-      int appVersion = 1;
+      float appVersion = 1;
       String name = args[0];
       String country = args[1];
-      String hello = "Hello " + name;
-      String from = "from " + country;
-      String welcome = hello + from;
+      String welcome = getWelcomeMessage(name, country);
     }
 
-    public static void showUserData(String name, int age, String country) {
+    public static String getWelcomeMessage(String name, String country) {
+        String hello = "Hello " + name;
+        String from = "from " + country;
+        return hello + from;
+    }
+
+    public static void showUserData(String name, String country, int age) {
       System.out.println("Name: " + name + "Country: " + country + "Age" + age);
     }
 
