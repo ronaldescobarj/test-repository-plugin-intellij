@@ -10,7 +10,7 @@ public class TestClass extends SuperClass {
     int toBeDeleted = 5667;
   }
 
-  private void lol()
+  public void lol()
   {
     int x = 2;
     String y = "y";
